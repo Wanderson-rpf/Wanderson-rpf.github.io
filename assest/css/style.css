@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .menu-content{
     position: fixed;
     width: 100%;
@@ -68,7 +72,7 @@
 .icon-logo{
     position: absolute;
     font-size: 2.5rem;
-    padding: 10px 5px 5px 80px;
+    padding: 10px 5px 5px 100px;
     color: #fff;
 }
 
@@ -96,6 +100,10 @@
     flex-flow: column wrap;
     min-height: 100vh;
     background-color: #0c192c;
+}
+
+.tela-inicial ion-icon{
+    width: 1.5rem;
 }
 
 .tela-inicial .card{
@@ -313,7 +321,7 @@
 
 .habilidades .tab input:checked ~ label::after{
     transform: rotate(135deg);
-    color: #fff;
+    color: transparent;
 }
 
 .habilidades .tab label h2{
