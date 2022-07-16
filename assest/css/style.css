@@ -348,7 +348,7 @@ html{
     color: transparent;
 }
 
-.habilidades .tab label h2{
+.habilidades .tab label a{
     width: 40px;
     height: 40px;
     background-color: #333;
@@ -361,7 +361,7 @@ html{
     margin-right: 10px;
 }
 
-.habilidades .tab input:checked ~ label h2{
+.habilidades .tab input:checked ~ label a{
     position: absolute;
     top: 0;
     left: 0;
@@ -373,25 +373,25 @@ html{
     padding: 20px;
 }
 
-.habilidades .tab:nth-child(2) label h2{
+.habilidades .tab:nth-child(2) label a{
     background: linear-gradient(135deg, #3c8ce7,#00eaff);
 }
-.habilidades .tab:nth-child(3) label h2{
+.habilidades .tab:nth-child(3) label a{
     background: linear-gradient(135deg,#3c8ce7,#00eaff);
 }
-.habilidades .tab:nth-child(4) label h2{
+.habilidades .tab:nth-child(4) label a{
     background: linear-gradient(135deg,#3c8ce7,#00eaff);
 }
-.habilidades .tab:nth-child(5) label h2{
+.habilidades .tab:nth-child(5) label a{
     background: linear-gradient(135deg,#3c8ce7,#00eaff);
 }
-.habilidades .tab:nth-child(6) label h2{
+.habilidades .tab:nth-child(6) label a{
     background: linear-gradient(135deg,#3c8ce7,#00eaff);
 }
-.habilidades .tab:nth-child(7) label h2{
+.habilidades .tab:nth-child(7) label a{
     background: linear-gradient(135deg,#3c8ce7,#00eaff);
 }
-.habilidades .tab:nth-child(8) label h2{
+.habilidades .tab:nth-child(8) label a{
     background: linear-gradient(135deg,#3c8ce7,#00eaff);
 }
 
