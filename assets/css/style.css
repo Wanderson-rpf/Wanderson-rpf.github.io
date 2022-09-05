@@ -13,7 +13,8 @@
   --font-icon-hab: rgba(255, 255, 255, 0.2);
 
   /* ---------- Colores fundo ---------- */
-  --clr-menu: rgba(255, 255, 255, 0.1);
+  /* --clr-menu: rgba(255, 255, 255, 0.1); */
+  --clr-menu: #3586ff;
   --clr-footer: #3586ff;
   --clr-pag-prim: #0c192c;
   --clr-pag-sec: #4fc3dc;
