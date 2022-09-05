@@ -15,6 +15,7 @@
   /* ---------- Colores fundo ---------- */
   /* --clr-menu: rgba(255, 255, 255, 0.1); */
   --clr-menu: #3586ff;
+  --clr-seletor-menu: rgba(0, 0, 0, 0.3);
   --clr-footer: #3586ff;
   --clr-pag-prim: #0c192c;
   --clr-pag-sec: #4fc3dc;
@@ -63,7 +64,7 @@ html {
 .menu-content ul li a::after {
   content: "";
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: var(--clr-seletor-menu);
   width: 100%;
   height: 200%;
   top: 100%;
@@ -335,6 +336,7 @@ nav ul li a:hover::after {
 .habilidades h1 {
   color: var(--font-clr-default);
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .habilidades .tab {
@@ -444,7 +446,7 @@ nav ul li a:hover::after {
 
 .habilidades .tab .conteudo {
   max-height: 0;
-  transition: 1s;
+  transition: 2s;
   overflow: hidden;
 }
 
@@ -500,6 +502,7 @@ footer .social-icons-footer li a {
 footer .social-icons-footer li a:hover {
   transform: translateY(-10px);
 }
+
 footer .menu-footer li a {
   font-size: 1.2rem;
   color: var(--font-clr-default);
